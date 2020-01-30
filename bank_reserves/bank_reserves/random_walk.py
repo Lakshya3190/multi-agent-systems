@@ -1,22 +1,9 @@
-"""
-Citation:
-The following code is a copy from random_walk.py at
-https://github.com/projectmesa/mesa/blob/master/examples/wolf_sheep/wolf_sheep/random_walk.py
-Accessed on: November 2, 2017
-Original Author: Jackie Kazil
 
-Generalized behavior for random walking, one grid cell at a time.
-"""
 
 from mesa import Agent
 
 
 class RandomWalker(Agent):
-    '''
-    Class implementing random walker methods in a generalized manner.
-    Not indended to be used on its own, but to inherit its methods to multiple
-    other agents.
-    '''
 
     grid = None
     x = None
